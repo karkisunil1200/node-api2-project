@@ -7,4 +7,4 @@ server.get('/', (req, res) => {
 });
 
 const PORT = 5000;
-server.listen(PORT, () => console.log(`running on port${PORT}`));
+server.listen(PORT, () => console.log(`running on port:${PORT}`));
